@@ -7,11 +7,11 @@ public class TerrapinCard {
 		}
 
 		public void payEconomical() {
-			balance - 2.50;
+			balance = this.balance - 2.5;
 		}
 
-		public void payGourmet(double balance) {
-			return balance - 4.0;
+		public void payGourmet() {
+			  balance = this.balance - 4.0;
 		}
 
 		public String toString() {

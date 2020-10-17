@@ -9,11 +9,5 @@ public class CardRunner {
 		card.payGourmet();
 		card.payEconomical();
 		System.out.println(card);
-		card.payEconomical();
-		System.out.println(card);
-
-		card.payGourmet();
-		card.payEconomical();
-		System.out.println(card);
 	}
 }
