@@ -7,15 +7,20 @@ public class TerrapinCard {
 		}
 
 		public void payEconomical() {
-			balance = this.balance - 2.5;
+			if (balance >= 2.4){
+			  balance = this.balance - 2.4;
+			}
+
 		}
 
 		public void payGourmet() {
+			if (balance >= 4.0){
 			  balance = this.balance - 4.0;
+			} 
 		}
 
 		public String toString() {
-			return "This card has " + this.balance + " dollars.";
+			return "This card has " + this.balance + " dollars";
 		}
 
 }
