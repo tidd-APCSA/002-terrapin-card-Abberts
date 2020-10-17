@@ -1,13 +1,15 @@
 public class TerrapinCard {
 
 	private double balance;
-
+		
 		public TerrapinCard(double balance) {
 			this.balance = balance; 
 		}
 
 		public void loadMoney(double amount) {
-			if ((amount + this.balance) <= 150.0) {
+			if (amount < 0) {
+				balance = this.balance;
+			} else if ((amount + this.balance) <= 150.0) {
 				balance = this.balance + amount;
 			} else {
 				balance =  150.0;
