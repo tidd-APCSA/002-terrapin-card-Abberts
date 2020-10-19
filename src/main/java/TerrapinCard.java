@@ -10,10 +10,10 @@ public class TerrapinCard {
 		public void loadMoney(double amount) {
 			if (amount < 0) {
 				balance = this.balance;
-			} else if ((amount + this.balance) <= 150.0) {
-				balance = this.balance + amount;
-			} else {
+			} else if ((amount + this.balance) > 150.0) {
 				balance =  150.0;
+			} else {
+				balance = this.balance + amount;
 			}
 		}
 
