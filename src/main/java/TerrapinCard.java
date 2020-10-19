@@ -1,5 +1,6 @@
 public class TerrapinCard {
 
+//im done
 	private double balance;
 		
 		public TerrapinCard(double balance) {
