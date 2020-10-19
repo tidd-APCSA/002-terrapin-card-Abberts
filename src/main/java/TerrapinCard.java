@@ -19,7 +19,7 @@ public class TerrapinCard {
 
 		public void payEconomical() {
 			if (balance >= 2.5){
-			  balance = this.balance - 2.4;
+			  balance = this.balance - 2.5;
 			}
 		}
 
